@@ -1,6 +1,6 @@
 package com.company;
 
-public class Room {
+public abstract class Room {
     private String number;
     private int capacity;
 
@@ -29,4 +29,18 @@ public class Room {
                 ", capacity=" + capacity +
                 '}';
     }
+
+    public abstract int getPrise();
+
+    public abstract void doService();
 }
+
+
+
+
+
+
+
+
+
+
